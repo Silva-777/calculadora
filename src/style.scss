@@ -1,0 +1,43 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border box;
+}
+
+body {
+  background: linear-gradient(#87cefa, #b0e0e6);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+h1 {
+  text-align: center;
+  padding-bottom: 20px;
+}
+
+input {
+  display: block;
+  border: none;
+  margin: 10px;
+  border-radius: 20px;
+  text-align: center;
+  padding: 10px 0;
+}
+
+button {
+  border: none;
+  padding: 10px;
+  cursor: pointer;
+  margin: 5px;
+  border-radius: 10px;
+
+  &:hover {
+    background-color: violet;
+  }
+}
+
+div {
+  text-align: center;
+}
